@@ -26,7 +26,7 @@ body {
     background-position:center;
 	margin-left: auto; 
 	margin-right: auto;
-    margin-top: 15px;
+    margin-top: 35px;
     padding: 20px 30px;
     position: relative;
     z-index: 50;
@@ -48,18 +48,18 @@ body {
 
 .contenido-descripcion .titulo {
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 1px;
 }
 
 .contenido-descripcion .titulo span:first-child {
     font-size: 50px; 
     display: block;
-    font-weight: 300;
+    font-weight: 30px;
     color: #07A0E2;
 }
 
 .contenido-descripcion .titulo span:last-child {
-    font-weight: 900;
+    font-weight:1000px;
     font-size: 100px;
 }
 
@@ -69,11 +69,11 @@ body {
     margin: 25px 0;
     text-transform: uppercase;
     text-decoration: none;
-    border: 1px solid #555555;
     animation: parpadeo 2s linear infinite;
     transition: .7s ease;
     background-color: #9DB1BF;
     color: #0E2F4C;
+    border-radius: 10px;
     
 }
 
